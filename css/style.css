@@ -24,11 +24,19 @@ h1{
     font-weight: 700;
     color: #575757;
 }
+
+h2 {
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 p {
     color: #828282;
     font-size: 18px;
     font-weight: 300;
 }
+
 img {
     vertical-align: middle;
 }
@@ -46,16 +54,17 @@ img {
     box-shadow: 10px 10px 10px gray;
 }
 
-.about-container {
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-}
 
+/* about section start */
 .about-area{
     background-image: url(../images/shapes/7.png);
     margin-top: 20px;
     margin-bottom:50px;
+            }
+             .about-container {
+                width: 940px;
+                margin: 0 auto;
+                display: flex;
             }
            .about-area h2{
                color:#676767 ;
@@ -69,16 +78,20 @@ img {
      .text-area{
         margin-top: 20px;
      }  
-
+/* about section end */
+/* recipies section start */
      .recipies-area{
         margin-top: 20px;
         margin-bottom:50px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .recipies-container{
         display: flex;
     }
     .recipies-des {
         text-align: center;
+        margin-bottom: 30px;
     }
 
 .recipies-des h2 {
@@ -106,4 +119,47 @@ img {
 
     .recipies-item img{
         width: 100%;   
-        
+    }
+    /* recipies section end */
+   
+
+    /* counter section start */
+    .counter-area{
+        width: 75%;
+        /* height: 140px; */
+        box-shadow: 5px 5px 20px grey;
+        margin: 8% 15% 8% 15%;
+        border-radius: 15px;
+    }
+    .counter-item{
+        display: flex;
+    }
+
+    
+
+.user {
+width: 25%;
+/* height: 140px; */
+margin: 0 auto;
+text-align: center;
+}
+/* counter section end */
+footer{
+    /* width: 100%;
+    height: 200px; */
+    text-align: center;
+    background-color: black;
+    color: white;
+     padding-top: 20px;
+    padding-bottom: 20px; 
+}   
+footer h2{
+    padding-top: 40px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+}
+.graycolor {
+    color: gray;
+}
