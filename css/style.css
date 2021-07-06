@@ -3,6 +3,7 @@ body{
      font-family: 'Montserrat', sans-serif;
 }
 
+
 .intro-section{
     display: flex;
     margin-top: 40px;
@@ -28,6 +29,9 @@ p {
     font-size: 18px;
     font-weight: 300;
 }
+img {
+    vertical-align: middle;
+}
 .orange-highlight{
     color: #FBA24F;
 }
@@ -41,3 +45,28 @@ p {
     border-radius: 50px;
     box-shadow: 10px 10px 10px gray;
 }
+
+.about-container {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-area{
+    background-image: url(../images/shapes/7.png);
+    /* margin-top: -200px; */
+    margin-top: 20px;
+            }
+           .about-area h2{
+               color:#676767 ;
+               font-size: 36px;
+           } 
+
+.image-area{
+    width: 45%;
+    margin-top: 15px;
+}
+     .text-area{
+        margin-top: 20px;
+     }   
+        
