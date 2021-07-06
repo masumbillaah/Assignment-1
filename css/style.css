@@ -27,6 +27,7 @@ h1{
 
 h2 {
     font-size: 40px;
+    color: #707070;
 }
 h3{
     font-size: 30px;
@@ -88,7 +89,9 @@ img {
     }
     .recipies-container{
         display: flex;
-    }
+    padding-left: 4%;
+    padding-right: 4%;
+}
     .recipies-des {
         text-align: center;
         margin-bottom: 30px;
@@ -126,30 +129,66 @@ img {
     /* counter section start */
     .counter-area{
         width: 75%;
-        /* height: 140px; */
         box-shadow: 5px 5px 20px grey;
         margin: 8% 15% 8% 15%;
         border-radius: 15px;
     }
     .counter-item{
         display: flex;
+        padding-bottom: 20px;
     }
-
-    
 
 .user {
 width: 25%;
-/* height: 140px; */
 margin: 0 auto;
 text-align: center;
 }
+.user h2{
+    color: black;
+}
 /* counter section end */
+/* testimonial section start */
+.testimonial {
+    display: flex;
+    margin-top: 50px;
+    background: url(../images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+}
+.quotes-left {
+    font-size: 60px;
+    padding-top:10px;
+    width: 450px;
+}
+
+.quotes-right {
+    font-size: 60px;
+    padding-top: 10px;
+    width: 450px;
+}
+
+.testimonial-des {
+    flex-basis: 50%;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.testimonial-img {
+    flex-basis: 50%;
+}
+
+
+.client-name{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+/* testimonial section start */
+
 footer{
-    /* width: 100%;
-    height: 200px; */
-    text-align: center;
     background-color: black;
     color: white;
+    text-align: center;
      padding-top: 20px;
     padding-bottom: 20px; 
 }   
