@@ -54,8 +54,8 @@ img {
 
 .about-area{
     background-image: url(../images/shapes/7.png);
-    /* margin-top: -200px; */
     margin-top: 20px;
+    margin-bottom:50px;
             }
            .about-area h2{
                color:#676767 ;
@@ -68,5 +68,42 @@ img {
 }
      .text-area{
         margin-top: 20px;
-     }   
+     }  
+
+     .recipies-area{
+        margin-top: 20px;
+        margin-bottom:50px;
+    }
+    .recipies-container{
+        display: flex;
+    }
+    .recipies-des {
+        text-align: center;
+    }
+
+.recipies-des h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #676767;
+}
+    .recipies-des p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #828282;
+        width: 700px;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+     .recipies-item{
+        width: 25%;
+        box-shadow: 10px 10px 10px 10px gray;
+        margin: 2%;
+        padding: 2%;
+        border-radius: 20px;
+        background-color: white;
+        
+    }
+
+    .recipies-item img{
+        width: 100%;   
         
